@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780CDE2C2C28804100AB6655 /* Crystals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780CDE2B2C28804100AB6655 /* Crystals.swift */; };
 		78D038192BEFC55900AA1C0D /* testDevCrystalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D038182BEFC55900AA1C0D /* testDevCrystalsApp.swift */; };
 		78D0381B2BEFC55900AA1C0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D0381A2BEFC55900AA1C0D /* ContentView.swift */; };
 		78D0381D2BEFC55A00AA1C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D0381C2BEFC55A00AA1C0D /* Assets.xcassets */; };
 		78D038202BEFC55A00AA1C0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D0381F2BEFC55A00AA1C0D /* Preview Assets.xcassets */; };
-		78D0382A2BEFC55A00AA1C0D /* testDevCrystalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D038292BEFC55A00AA1C0D /* testDevCrystalsTests.swift */; };
-		78D038342BEFC55A00AA1C0D /* testDevCrystalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D038332BEFC55A00AA1C0D /* testDevCrystalsUITests.swift */; };
-		78D038362BEFC55A00AA1C0D /* testDevCrystalsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D038352BEFC55A00AA1C0D /* testDevCrystalsUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		780CDE2B2C28804100AB6655 /* Crystals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crystals.swift; sourceTree = "<group>"; };
 		78D038152BEFC55900AA1C0D /* testDevCrystals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDevCrystals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D038182BEFC55900AA1C0D /* testDevCrystalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testDevCrystalsApp.swift; sourceTree = "<group>"; };
 		78D0381A2BEFC55900AA1C0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78D0381C2BEFC55A00AA1C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78D0381F2BEFC55A00AA1C0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78D038252BEFC55A00AA1C0D /* testDevCrystalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDevCrystalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78D038292BEFC55A00AA1C0D /* testDevCrystalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testDevCrystalsTests.swift; sourceTree = "<group>"; };
 		78D0382F2BEFC55A00AA1C0D /* testDevCrystalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDevCrystalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78D038332BEFC55A00AA1C0D /* testDevCrystalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testDevCrystalsUITests.swift; sourceTree = "<group>"; };
-		78D038352BEFC55A00AA1C0D /* testDevCrystalsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testDevCrystalsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				78D038172BEFC55900AA1C0D /* testDevCrystals */,
-				78D038282BEFC55A00AA1C0D /* testDevCrystalsTests */,
-				78D038322BEFC55A00AA1C0D /* testDevCrystalsUITests */,
 				78D038162BEFC55900AA1C0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +92,7 @@
 				78D0381A2BEFC55900AA1C0D /* ContentView.swift */,
 				78D0381C2BEFC55A00AA1C0D /* Assets.xcassets */,
 				78D0381E2BEFC55A00AA1C0D /* Preview Content */,
+				780CDE2B2C28804100AB6655 /* Crystals.swift */,
 			);
 			path = testDevCrystals;
 			sourceTree = "<group>";
@@ -108,23 +103,6 @@
 				78D0381F2BEFC55A00AA1C0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		78D038282BEFC55A00AA1C0D /* testDevCrystalsTests */ = {
-			isa = PBXGroup;
-			children = (
-				78D038292BEFC55A00AA1C0D /* testDevCrystalsTests.swift */,
-			);
-			path = testDevCrystalsTests;
-			sourceTree = "<group>";
-		};
-		78D038322BEFC55A00AA1C0D /* testDevCrystalsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				78D038332BEFC55A00AA1C0D /* testDevCrystalsUITests.swift */,
-				78D038352BEFC55A00AA1C0D /* testDevCrystalsUITestsLaunchTests.swift */,
-			);
-			path = testDevCrystalsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				780CDE2C2C28804100AB6655 /* Crystals.swift in Sources */,
 				78D0381B2BEFC55900AA1C0D /* ContentView.swift in Sources */,
 				78D038192BEFC55900AA1C0D /* testDevCrystalsApp.swift in Sources */,
 			);
@@ -266,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78D0382A2BEFC55A00AA1C0D /* testDevCrystalsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78D038342BEFC55A00AA1C0D /* testDevCrystalsUITests.swift in Sources */,
-				78D038362BEFC55A00AA1C0D /* testDevCrystalsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
