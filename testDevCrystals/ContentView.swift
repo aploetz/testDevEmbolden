@@ -17,20 +17,21 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(crystals, id: \.image_name) { crystal in
-                    
-                    HStack(spacing: 50) {
-                        Text("\(crystal.name)")
-
-                        if crystal.image_name.contains(".jpeg") {
-                            Image(String(crystal.image_name.dropLast(5)))
-                                .resizable()
-                                .frame(width: 60, height: 60)
-                        } else {
-                            Image(String(crystal.image_name.dropLast(4)))
-                                .resizable()
-                                .frame(width: 60, height: 60)
+                    NavigationLink(destination: CrystalView(crystal: crystal)) {
+                        HStack(spacing: 50) {
+                            Text("\(crystal.name)")
+                            
+                            if crystal.image_name.contains(".jpeg") {
+                                Image(String(crystal.image_name.dropLast(5)))
+                                    .resizable()
+                                    .frame(width: 60, height: 60)
+                            } else {
+                                Image(String(crystal.image_name.dropLast(4)))
+                                    .resizable()
+                                    .frame(width: 60, height: 60)
+                            }
+                            
                         }
-
                     }
                 }
             }

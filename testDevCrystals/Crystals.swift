@@ -24,3 +24,20 @@ struct Crystal: Decodable {
     var maximum_mohs_hardness: Float
     var minimum_mohs_hardness: Float
 }
+
+extension Crystal {
+    static let sampleData: [Crystal] =
+    [
+        Crystal(name: "Agate Druzy",
+                image_name: "agate_druzy.png",
+                chakra: ["Crown","Root"],
+                physical_attributes: "Immune system, brain",
+                emotional_attributes: "Instills positivity, amplifies body's natural healing",
+                metaphysical_attributes: "Aids in meditation, enhances spiritual growth",
+                origin: "Brazil, Uruguay, Mexico",
+                birth_month: "July",
+                zodiac_sign: "Cancer",
+                maximum_mohs_hardness: 7.0,
+                minimum_mohs_hardness: 6.5)
+    ]
+}

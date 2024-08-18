@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		780CDE2C2C28804100AB6655 /* Crystals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780CDE2B2C28804100AB6655 /* Crystals.swift */; };
+		78327D652C727B3100E58142 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78327D642C727B3100E58142 /* Theme.swift */; };
+		78327D672C727B9D00E58142 /* CrystalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78327D662C727B9D00E58142 /* CrystalView.swift */; };
 		78D038192BEFC55900AA1C0D /* testDevCrystalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D038182BEFC55900AA1C0D /* testDevCrystalsApp.swift */; };
 		78D0381B2BEFC55900AA1C0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D0381A2BEFC55900AA1C0D /* ContentView.swift */; };
 		78D0381D2BEFC55A00AA1C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D0381C2BEFC55A00AA1C0D /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		780CDE2B2C28804100AB6655 /* Crystals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crystals.swift; sourceTree = "<group>"; };
+		78327D642C727B3100E58142 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		78327D662C727B9D00E58142 /* CrystalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalView.swift; sourceTree = "<group>"; };
 		78D038152BEFC55900AA1C0D /* testDevCrystals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDevCrystals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D038182BEFC55900AA1C0D /* testDevCrystalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testDevCrystalsApp.swift; sourceTree = "<group>"; };
 		78D0381A2BEFC55900AA1C0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,11 +92,13 @@
 		78D038172BEFC55900AA1C0D /* testDevCrystals */ = {
 			isa = PBXGroup;
 			children = (
+				78327D642C727B3100E58142 /* Theme.swift */,
 				78D038182BEFC55900AA1C0D /* testDevCrystalsApp.swift */,
 				78D0381A2BEFC55900AA1C0D /* ContentView.swift */,
 				78D0381C2BEFC55A00AA1C0D /* Assets.xcassets */,
 				78D0381E2BEFC55A00AA1C0D /* Preview Content */,
 				780CDE2B2C28804100AB6655 /* Crystals.swift */,
+				78327D662C727B9D00E58142 /* CrystalView.swift */,
 			);
 			path = testDevCrystals;
 			sourceTree = "<group>";
@@ -236,6 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				780CDE2C2C28804100AB6655 /* Crystals.swift in Sources */,
+				78327D652C727B3100E58142 /* Theme.swift in Sources */,
+				78327D672C727B9D00E58142 /* CrystalView.swift in Sources */,
 				78D0381B2BEFC55900AA1C0D /* ContentView.swift in Sources */,
 				78D038192BEFC55900AA1C0D /* testDevCrystalsApp.swift in Sources */,
 			);
