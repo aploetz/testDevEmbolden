@@ -12,7 +12,8 @@ struct CrystalView: View {
     var body: some View {
         VStack(alignment: .center) {
             Text(crystal.name)
-                .font(.headline)
+                .font(.title)
+                .bold()
             HStack {
                 if crystal.image_name.contains(".jpeg") {
                     Image(String(crystal.image_name.dropLast(5)))

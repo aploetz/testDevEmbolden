@@ -10,6 +10,9 @@
 		780CDE2C2C28804100AB6655 /* Crystals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780CDE2B2C28804100AB6655 /* Crystals.swift */; };
 		78327D652C727B3100E58142 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78327D642C727B3100E58142 /* Theme.swift */; };
 		78327D672C727B9D00E58142 /* CrystalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78327D662C727B9D00E58142 /* CrystalView.swift */; };
+		783E5AD32CD7DDF7000377F1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783E5AD22CD7DDF7000377F1 /* ViewModel.swift */; };
+		783E5AD52CD7E2FD000377F1 /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783E5AD42CD7E2FD000377F1 /* Picker.swift */; };
+		783E5AD72CD7E6DE000377F1 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783E5AD62CD7E6DE000377F1 /* ImagePicker.swift */; };
 		78D038192BEFC55900AA1C0D /* testDevCrystalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D038182BEFC55900AA1C0D /* testDevCrystalsApp.swift */; };
 		78D0381B2BEFC55900AA1C0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D0381A2BEFC55900AA1C0D /* ContentView.swift */; };
 		78D0381D2BEFC55A00AA1C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D0381C2BEFC55A00AA1C0D /* Assets.xcassets */; };
@@ -37,6 +40,9 @@
 		780CDE2B2C28804100AB6655 /* Crystals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crystals.swift; sourceTree = "<group>"; };
 		78327D642C727B3100E58142 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		78327D662C727B9D00E58142 /* CrystalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalView.swift; sourceTree = "<group>"; };
+		783E5AD22CD7DDF7000377F1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		783E5AD42CD7E2FD000377F1 /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
+		783E5AD62CD7E6DE000377F1 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		78D038152BEFC55900AA1C0D /* testDevCrystals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDevCrystals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D038182BEFC55900AA1C0D /* testDevCrystalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testDevCrystalsApp.swift; sourceTree = "<group>"; };
 		78D0381A2BEFC55900AA1C0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 				78D0381E2BEFC55A00AA1C0D /* Preview Content */,
 				780CDE2B2C28804100AB6655 /* Crystals.swift */,
 				78327D662C727B9D00E58142 /* CrystalView.swift */,
+				783E5AD22CD7DDF7000377F1 /* ViewModel.swift */,
+				783E5AD42CD7E2FD000377F1 /* Picker.swift */,
+				783E5AD62CD7E6DE000377F1 /* ImagePicker.swift */,
 			);
 			path = testDevCrystals;
 			sourceTree = "<group>";
@@ -243,8 +252,11 @@
 			files = (
 				780CDE2C2C28804100AB6655 /* Crystals.swift in Sources */,
 				78327D652C727B3100E58142 /* Theme.swift in Sources */,
+				783E5AD52CD7E2FD000377F1 /* Picker.swift in Sources */,
 				78327D672C727B9D00E58142 /* CrystalView.swift in Sources */,
 				78D0381B2BEFC55900AA1C0D /* ContentView.swift in Sources */,
+				783E5AD72CD7E6DE000377F1 /* ImagePicker.swift in Sources */,
+				783E5AD32CD7DDF7000377F1 /* ViewModel.swift in Sources */,
 				78D038192BEFC55900AA1C0D /* testDevCrystalsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +421,7 @@
 				DEVELOPMENT_TEAM = T2Z945DP8W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Would like to use the camera to take photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,6 +451,7 @@
 				DEVELOPMENT_TEAM = T2Z945DP8W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Would like to use the camera to take photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
